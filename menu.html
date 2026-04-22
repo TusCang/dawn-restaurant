@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>菜單 — 黎明餐館</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;600;900&family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">黎明餐館</a>
+    <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="menu.html" class="active">菜單</a></li>
+      <li><a href="story.html">我們的故事</a></li>
+      <li><a href="reservation.html">訂位</a></li>
+      <li><a href="gallery.html">環境照片</a></li>
+      <li><a href="events.html">活動消息</a></li>
+      <li><a href="contact.html">聯絡我們</a></li>
+      <li><a href="feedback.html">滿意度調查</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-header">
+    <div class="page-header-inner container">
+      <p class="label">MENU</p>
+      <h1>菜單</h1>
+    </div>
+  </div>
+
+  <section class="menu-section">
+    <div class="container">
+      <div class="menu-note">
+        ✦ 所有套餐均含例湯或沙拉・主菜・甜點・飲品一杯。價格均含服務費，不另加收。
+      </div>
+
+      <div class="menu-category">
+        <h2 class="menu-category-title">🌅 黎明早午餐 <small style="font-size:0.7rem;color:var(--dawn-muted);font-weight:400;">06:00–11:30</small></h2>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>黎明經典早午套餐</h4>
+              <p>法式吐司・水波蛋・燻鮭魚・季節水果</p>
+            </div>
+            <div class="menu-item-price">$320</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>農場全日早餐</h4>
+              <p>炒蛋・培根・烤蕃茄・蘑菇・自製麵包</p>
+            </div>
+            <div class="menu-item-price">$380</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>日式松餅早餐</h4>
+              <p>舒芙蕾鬆餅・抹茶奶油・季節果醬</p>
+            </div>
+            <div class="menu-item-price">$280</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>燉飯早午套餐</h4>
+              <p>松露蛋黃燉飯・焦糖洋蔥濃湯・沙拉</p>
+            </div>
+            <div class="menu-item-price">$420</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h2 class="menu-category-title">☀️ 午間套餐 <small style="font-size:0.7rem;color:var(--dawn-muted);font-weight:400;">11:30–15:00</small></h2>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>主廚午間特選</h4>
+              <p>每日更換・依市場鮮貨決定菜色</p>
+            </div>
+            <div class="menu-item-price">$480</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>義大利麵午餐組合</h4>
+              <p>任選義大利麵・例湯・飲品</p>
+            </div>
+            <div class="menu-item-price">$360</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>嫩煎鱸魚排</h4>
+              <p>檸檬奶油醬汁・法式薯條・季節蔬菜</p>
+            </div>
+            <div class="menu-item-price">$520</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>素食暖心鍋</h4>
+              <p>豆腐・根莖蔬菜・味噌湯底・白飯</p>
+            </div>
+            <div class="menu-item-price">$340</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h2 class="menu-category-title">🌙 晚間套餐 <small style="font-size:0.7rem;color:var(--dawn-muted);font-weight:400;">17:30–21:00</small></h2>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>黎明四道式晚宴</h4>
+              <p>開胃菜・湯品・主菜（牛/魚/素選一）・甜點</p>
+            </div>
+            <div class="menu-item-price">$980</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>主廚六道式品嚐套餐</h4>
+              <p>依季節食材設計・每月更新菜色</p>
+            </div>
+            <div class="menu-item-price">$1,680</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>頂級牛排晚餐</h4>
+              <p>美國 Prime 肋眼 300g・紅酒醬汁・松露奶油薯泥</p>
+            </div>
+            <div class="menu-item-price">$1,280</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>龍蝦雙拼套餐</h4>
+              <p>白酒清蒸波士頓龍蝦・奶油焗烤半份</p>
+            </div>
+            <div class="menu-item-price">$1,480</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h2 class="menu-category-title">☕ 飲品 & 甜點</h2>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>黎明特調咖啡</h4>
+              <p>衣索比亞單品豆・熱/冰自選</p>
+            </div>
+            <div class="menu-item-price">$160</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>手作提拉米蘇</h4>
+              <p>每日現做・濃郁馬斯卡彭乳酪</p>
+            </div>
+            <div class="menu-item-price">$180</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>抹茶生乳酪蛋糕</h4>
+              <p>宇治抹茶・北海道奶油乳酪</p>
+            </div>
+            <div class="menu-item-price">$200</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h4>季節果汁</h4>
+              <p>每日現打・無加糖</p>
+            </div>
+            <div class="menu-item-price">$140</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">黎明餐館</span>
+        <p>以食物訴說黎明的溫柔</p>
+      </div>
+      <div class="footer-links">
+        <a href="menu.html">菜單</a>
+        <a href="story.html">關於我們</a>
+        <a href="reservation.html">訂位</a>
+        <a href="feedback.html">滿意調查</a>
+      </div>
+      <p class="footer-copy">© 2025 黎明餐館 Dawn Restaurant. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

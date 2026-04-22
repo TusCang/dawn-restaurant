@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>環境照片 — 黎明餐館</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;600;900&family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet">
+  <style>
+    .gallery-tabs { display:flex; gap:0.5rem; justify-content:center; margin-bottom:2.5rem; flex-wrap:wrap; }
+    .gallery-tab { padding:0.5rem 1.5rem; border:1px solid rgba(201,169,110,0.4); border-radius:20px; background:transparent; cursor:pointer; font-family:var(--font-serif); font-size:0.85rem; color:var(--dawn-muted); transition:all 0.2s; }
+    .gallery-tab.active, .gallery-tab:hover { background:var(--dawn-gold); color:var(--dawn-deep); border-color:var(--dawn-gold); font-weight:700; }
+    .gallery-caption { text-align:center; margin-top:3rem; color:var(--dawn-muted); font-size:0.88rem; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">黎明餐館</a>
+    <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="menu.html">菜單</a></li>
+      <li><a href="story.html">我們的故事</a></li>
+      <li><a href="reservation.html">訂位</a></li>
+      <li><a href="gallery.html" class="active">環境照片</a></li>
+      <li><a href="events.html">活動消息</a></li>
+      <li><a href="contact.html">聯絡我們</a></li>
+      <li><a href="feedback.html">滿意度調查</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-header">
+    <div class="page-header-inner container">
+      <p class="label">GALLERY</p>
+      <h1>環境照片</h1>
+    </div>
+  </div>
+
+  <section class="gallery-section">
+    <div class="container">
+      <div class="gallery-intro">
+        <p>光線是我們最重要的設計元素。從破曉的金色晨光到黃昏的橙紅斜照，黎明的空間在一天之中展現出截然不同的風貌。</p>
+      </div>
+
+      <div class="gallery-tabs">
+        <button class="gallery-tab active">全部</button>
+        <button class="gallery-tab">室內空間</button>
+        <button class="gallery-tab">戶外座位</button>
+        <button class="gallery-tab">料理特寫</button>
+        <button class="gallery-tab">私人包廂</button>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-featured">
+          <span>🌅</span>
+          <p class="gallery-label">黎明晨光 · 主廳全景</p>
+        </div>
+        <div class="gallery-item">
+          <span>🪑</span>
+          <p class="gallery-label">木質暖色座位區</p>
+        </div>
+        <div class="gallery-item">
+          <span>🍽️</span>
+          <p class="gallery-label">主廚特選擺盤</p>
+        </div>
+        <div class="gallery-item">
+          <span>🌿</span>
+          <p class="gallery-label">戶外綠意花園座</p>
+        </div>
+        <div class="gallery-item">
+          <span>☕</span>
+          <p class="gallery-label">吧台手沖咖啡區</p>
+        </div>
+        <div class="gallery-item">
+          <span>🕯️</span>
+          <p class="gallery-label">燭光晚宴私人包廂</p>
+        </div>
+        <div class="gallery-item">
+          <span>🥗</span>
+          <p class="gallery-label">季節前菜特寫</p>
+        </div>
+        <div class="gallery-item">
+          <span>🎂</span>
+          <p class="gallery-label">主廚甜點創作</p>
+        </div>
+        <div class="gallery-item">
+          <span>🪟</span>
+          <p class="gallery-label">落地窗採光座位</p>
+        </div>
+      </div>
+
+      <div class="gallery-caption">
+        ✦ 所有照片由攝影師 張子瑄 拍攝 · 版權所有，請勿轉載
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">黎明餐館</span>
+        <p>以食物訴說黎明的溫柔</p>
+      </div>
+      <div class="footer-links">
+        <a href="menu.html">菜單</a>
+        <a href="story.html">關於我們</a>
+        <a href="reservation.html">訂位</a>
+        <a href="feedback.html">滿意調查</a>
+      </div>
+      <p class="footer-copy">© 2025 黎明餐館 Dawn Restaurant. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

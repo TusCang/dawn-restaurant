@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>滿意度調查 — 黎明餐館</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;600;900&family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet">
+  <style>
+    .feedback-why { display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem; margin:3rem 0; }
+    .why-card { text-align:center; padding:1.5rem; background:white; border-radius:8px; box-shadow:0 2px 12px rgba(0,0,0,0.06); }
+    .why-card .icon { font-size:2rem; margin-bottom:0.75rem; }
+    .why-card h4 { color:var(--dawn-deep); font-size:0.95rem; margin-bottom:0.4rem; }
+    .why-card p { color:var(--dawn-muted); font-size:0.82rem; line-height:1.7; }
+    @media(max-width:700px){ .feedback-why{grid-template-columns:1fr;} }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">黎明餐館</a>
+    <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="menu.html">菜單</a></li>
+      <li><a href="story.html">我們的故事</a></li>
+      <li><a href="reservation.html">訂位</a></li>
+      <li><a href="gallery.html">環境照片</a></li>
+      <li><a href="events.html">活動消息</a></li>
+      <li><a href="contact.html">聯絡我們</a></li>
+      <li><a href="feedback.html" class="active">滿意度調查</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-header">
+    <div class="page-header-inner container">
+      <p class="label">CUSTOMER FEEDBACK</p>
+      <h1>滿意度調查</h1>
+    </div>
+  </div>
+
+  <section class="feedback-section">
+    <div class="container">
+
+      <div class="feedback-intro">
+        <h2>您的意見，是我們最珍貴的禮物</h2>
+        <p>黎明餐館十年如一日地追求卓越，而這份追求的動力，來自每一位用餐賓客的真實反饋。無論是讚美還是建議，我們都誠心傾聽，並承諾每一份意見都會被認真對待。</p>
+      </div>
+
+      <div class="feedback-why">
+        <div class="why-card">
+          <div class="icon">💬</div>
+          <h4>真實聆聽</h4>
+          <p>每份問卷由餐廳管理團隊親自閱讀，不是自動過濾的數字。</p>
+        </div>
+        <div class="why-card">
+          <div class="icon">⚡</div>
+          <h4>快速回應</h4>
+          <p>若您留下聯絡方式，我們承諾在 48 小時內回覆您的意見。</p>
+        </div>
+        <div class="why-card">
+          <div class="icon">🎁</div>
+          <h4>感謝好禮</h4>
+          <p>完成問卷的賓客可憑截圖兌換下次用餐九折優惠券。</p>
+        </div>
+      </div>
+
+      <div class="feedback-form-wrapper">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSfd3dVhPLFsUyubjv812xCkJP0SVmblqjlIwOttIhl5lwbVDw/viewform?embedded=true"
+          width="640"
+          height="741"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          title="黎明餐館顧客滿意度調查表"
+          style="width:100%;min-height:741px;"
+        >載入中…</iframe>
+      </div>
+
+      <p class="feedback-note">
+        ✦ 您的個人資料將受到妥善保護，僅用於改善餐廳服務，不會提供予第三方。<br>
+        如有任何問題，請致電 (02) 2345-6789 或來信 hello@dawnrestaurant.tw
+      </p>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">黎明餐館</span>
+        <p>以食物訴說黎明的溫柔</p>
+      </div>
+      <div class="footer-links">
+        <a href="menu.html">菜單</a>
+        <a href="story.html">關於我們</a>
+        <a href="reservation.html">訂位</a>
+        <a href="feedback.html">滿意調查</a>
+      </div>
+      <p class="footer-copy">© 2025 黎明餐館 Dawn Restaurant. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

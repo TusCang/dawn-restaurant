@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>黎明餐館 — Dawn Restaurant</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;600;900&family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet">
+</head>
+<body class="page-home">
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">黎明餐館</a>
+    <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">首頁</a></li>
+      <li><a href="menu.html">菜單</a></li>
+      <li><a href="story.html">我們的故事</a></li>
+      <li><a href="reservation.html">訂位</a></li>
+      <li><a href="gallery.html">環境照片</a></li>
+      <li><a href="events.html">活動消息</a></li>
+      <li><a href="contact.html">聯絡我們</a></li>
+      <li><a href="feedback.html">滿意度調查</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-tagline">每一天，從黎明開始</p>
+      <h1 class="hero-title">黎明餐館</h1>
+      <p class="hero-subtitle">Dawn Restaurant</p>
+      <p class="hero-desc">以晨光為靈感，以食材為詩<br>帶給您一天中最美好的用餐時刻</p>
+      <div class="hero-cta">
+        <a href="reservation.html" class="btn btn-primary">立即訂位</a>
+        <a href="menu.html" class="btn btn-outline">查看菜單</a>
+      </div>
+    </div>
+    <div class="hero-scroll">↓</div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🌅</div>
+          <h3>黎明早午餐</h3>
+          <p>每日清晨六點開始，用最新鮮的食材迎接美好的一天，早午餐套餐任您選擇。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🍽️</div>
+          <h3>精緻晚餐</h3>
+          <p>夜幕降臨，主廚精心設計的晚餐套餐，為您的每個特殊時刻留下難忘回憶。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌿</div>
+          <h3>在地食材</h3>
+          <p>與在地農場合作，嚴選每日最新鮮的季節性食材，支持永續農業。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="highlight-section">
+    <div class="container split-layout">
+      <div class="split-text">
+        <span class="section-label">本週推薦</span>
+        <h2>主廚特選套餐</h2>
+        <p>本週主廚以春季時蔬為主軸，搭配來自宜蘭的有機雞肉，創作出充滿季節感的四道式套餐。每一道料理都在訴說著大地的故事。</p>
+        <ul class="dish-list">
+          <li><span>前菜</span> 野蔬溫沙拉佐松露油醋</li>
+          <li><span>湯品</span> 南瓜濃湯配酥脆鼠尾草</li>
+          <li><span>主菜</span> 柚香嫩雞胸佐時蔬燉飯</li>
+          <li><span>甜點</span> 抹茶生乳酪蛋糕</li>
+        </ul>
+        <a href="menu.html" class="btn btn-primary">查看完整菜單</a>
+      </div>
+      <div class="split-image">
+        <div class="image-placeholder dish-img">
+          <span>🍽️</span>
+          <p>主廚特選</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <h2 class="section-title">顧客好評</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <p>「黎明餐館的早午餐是我這輩子吃過最美好的一餐，食材新鮮、擺盤精緻，服務也非常貼心。」</p>
+          <cite>— 林小姐，台北</cite>
+        </div>
+        <div class="testimonial-card">
+          <p>「每次來都有驚喜，主廚總是能用當季食材創造出令人難忘的滋味，已經是我固定光顧的餐廳。」</p>
+          <cite>— 陳先生，新北</cite>
+        </div>
+        <div class="testimonial-card">
+          <p>「在這裡慶祝生日是最棒的選擇，從佈置到餐點都超出預期，全家人都非常滿意！」</p>
+          <cite>— 王太太，桃園</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="info-bar">
+    <div class="container info-bar-grid">
+      <div class="info-item">
+        <div class="info-icon">🕐</div>
+        <h4>營業時間</h4>
+        <p>週一至週五 06:00–21:00<br>週六、日 07:00–22:00</p>
+      </div>
+      <div class="info-item">
+        <div class="info-icon">📍</div>
+        <h4>地址</h4>
+        <p>台北市大安區黎明路 108 號<br>捷運大安站 3 號出口步行 5 分鐘</p>
+      </div>
+      <div class="info-item">
+        <div class="info-icon">📞</div>
+        <h4>訂位電話</h4>
+        <p>(02) 2345-6789<br>或線上訂位</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">黎明餐館</span>
+        <p>以食物訴說黎明的溫柔</p>
+      </div>
+      <div class="footer-links">
+        <a href="menu.html">菜單</a>
+        <a href="story.html">關於我們</a>
+        <a href="reservation.html">訂位</a>
+        <a href="feedback.html">滿意調查</a>
+      </div>
+      <p class="footer-copy">© 2025 黎明餐館 Dawn Restaurant. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
