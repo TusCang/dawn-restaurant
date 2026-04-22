@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>活動消息 — 黎明餐館</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;600;900&family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">黎明餐館</a>
+    <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="menu.html">菜單</a></li>
+      <li><a href="story.html">我們的故事</a></li>
+      <li><a href="reservation.html">訂位</a></li>
+      <li><a href="gallery.html">環境照片</a></li>
+      <li><a href="events.html" class="active">活動消息</a></li>
+      <li><a href="contact.html">聯絡我們</a></li>
+      <li><a href="feedback.html">滿意度調查</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-header">
+    <div class="page-header-inner container">
+      <p class="label">EVENTS</p>
+      <h1>活動消息</h1>
+    </div>
+  </div>
+
+  <section class="events-section">
+    <div class="container">
+
+      <div style="margin-bottom:3rem;">
+        <h2 style="font-size:1.4rem;color:var(--dawn-deep);margin-bottom:0.5rem;">近期活動</h2>
+        <p style="color:var(--dawn-muted);font-size:0.9rem;">掌握黎明餐館最新動態，不錯過任何精彩體驗</p>
+      </div>
+
+      <div class="events-list">
+
+        <div class="event-card">
+          <div class="event-date">
+            <div class="month">AUG</div>
+            <div class="day">15</div>
+            <div class="year">2025</div>
+          </div>
+          <div class="event-info">
+            <h3>🍷 夏日自然酒饗宴</h3>
+            <p>侍酒師吳志遠親自精選來自法國羅亞爾河谷的八款自然酒，搭配主廚特設的六道式配對套餐。每款酒都有生產者的故事，讓您在一個夜晚環遊法國葡萄酒鄉。人數限定 20 位。</p>
+          </div>
+          <div class="event-meta">
+            <span class="event-tag">品酒活動</span>
+            <span class="event-seats">剩 6 位</span>
+            <a href="reservation.html" class="btn btn-primary" style="font-size:0.8rem;padding:0.5rem 1.2rem;">立即報名</a>
+          </div>
+        </div>
+
+        <div class="event-card">
+          <div class="event-date">
+            <div class="month">AUG</div>
+            <div class="day">22</div>
+            <div class="year">2025</div>
+          </div>
+          <div class="event-info">
+            <h3>👨‍🍳 主廚體驗課：義大利鮮麵製作</h3>
+            <p>由陳晨光主廚親自教學，帶您動手製作義大利南部傳統鮮麵 Orecchiette，搭配夏季番茄醬汁。課後共享自製成果，並帶回食譜一份。適合親子、情侶、朋友共同參與。</p>
+          </div>
+          <div class="event-meta">
+            <span class="event-tag">廚藝課程</span>
+            <span class="event-seats">剩 8 位</span>
+            <a href="reservation.html" class="btn btn-primary" style="font-size:0.8rem;padding:0.5rem 1.2rem;">立即報名</a>
+          </div>
+        </div>
+
+        <div class="event-card">
+          <div class="event-date">
+            <div class="month">SEP</div>
+            <div class="day">7</div>
+            <div class="year">2025</div>
+          </div>
+          <div class="event-info">
+            <h3>🌙 中秋節特別套餐</h3>
+            <p>以中秋為靈感，主廚以柚子、文旦、桂花等秋季食材設計限定五道式套餐。月圓之夜，在黎明的戶外花園露台，與摯愛共享一餐難忘的月下晚宴。供應量有限，額滿為止。</p>
+          </div>
+          <div class="event-meta">
+            <span class="event-tag">節慶限定</span>
+            <span class="event-seats">剩 12 位</span>
+            <a href="reservation.html" class="btn btn-primary" style="font-size:0.8rem;padding:0.5rem 1.2rem;">立即報名</a>
+          </div>
+        </div>
+
+        <div class="event-card">
+          <div class="event-date">
+            <div class="month">SEP</div>
+            <div class="day">20</div>
+            <div class="year">2025</div>
+          </div>
+          <div class="event-info">
+            <h3>🌱 農場一日遊 × 農場餐桌</h3>
+            <p>隨黎明團隊前往宜蘭合作農場，親手採收當季蔬果，接著在農場現場由主廚烹調一場農地旁的野餐饗宴。深入了解您盤中食物的來源，體驗從土地到餐桌的完整旅程。</p>
+          </div>
+          <div class="event-meta">
+            <span class="event-tag">農場體驗</span>
+            <span class="event-seats">剩 4 位</span>
+            <a href="reservation.html" class="btn btn-primary" style="font-size:0.8rem;padding:0.5rem 1.2rem;">立即報名</a>
+          </div>
+        </div>
+
+        <div class="event-card" style="border-left-color:var(--dawn-sage);opacity:0.7;">
+          <div class="event-date">
+            <div class="month">JUL</div>
+            <div class="day">12</div>
+            <div class="year">2025</div>
+          </div>
+          <div class="event-info">
+            <h3>☕ 產地直送咖啡品鑒會</h3>
+            <p>本次活動已圓滿落幕。感謝 35 位賓客的參與，我們共品鑒了來自衣索比亞、哥倫比亞、巴拿馬的七款精品咖啡豆。</p>
+          </div>
+          <div class="event-meta">
+            <span class="event-tag" style="background:rgba(0,0,0,0.06);color:var(--dawn-muted);">已結束</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="text-align:center;margin-top:4rem;padding:3rem;background:rgba(201,169,110,0.06);border-radius:8px;border:1px dashed rgba(201,169,110,0.3);">
+        <p style="color:var(--dawn-muted);margin-bottom:1rem;">想第一時間獲得活動通知？</p>
+        <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;align-items:center;">
+          <input type="email" placeholder="請輸入您的 Email" style="padding:0.7rem 1.2rem;border:1px solid rgba(201,169,110,0.4);border-radius:4px;font-family:var(--font-serif);font-size:0.9rem;background:white;min-width:260px;">
+          <button class="btn btn-primary" onclick="alert('感謝訂閱！（示範功能）')">訂閱活動通知</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">黎明餐館</span>
+        <p>以食物訴說黎明的溫柔</p>
+      </div>
+      <div class="footer-links">
+        <a href="menu.html">菜單</a>
+        <a href="story.html">關於我們</a>
+        <a href="reservation.html">訂位</a>
+        <a href="feedback.html">滿意調查</a>
+      </div>
+      <p class="footer-copy">© 2025 黎明餐館 Dawn Restaurant. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
